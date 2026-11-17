@@ -1,0 +1,16 @@
+{
+  "name": "v86-relay-render",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple WebSocket relay for v86 network_relay_url (broadcast/LAN-style).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
